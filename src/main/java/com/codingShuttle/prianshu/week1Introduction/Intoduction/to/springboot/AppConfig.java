@@ -9,6 +9,7 @@ public class AppConfig {
     @Bean
     @Scope("prototype")//this will create two apple objects
 //    @Scope("singleton")
+
     Apple getApple(){
         return new Apple();
     }
